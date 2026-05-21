@@ -50,6 +50,7 @@ class ApproveLeavePage:
         "//button[contains(normalize-space(),'Yes') and contains(normalize-space(),'Accept')]"
     )
 
+
     YES_REJECT_BUTTON = (
         By.XPATH,
         "//button[contains(normalize-space(),'Yes') and contains(normalize-space(),'Reject')]"
